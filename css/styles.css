@@ -4,10 +4,11 @@ h2.title-call-out {
     font-weight: 900;
     line-height: 1.5;
     padding: 5%;
-    font-size: 1.5rem;
+    font-size: 2rem;
 
 
 }
+
 
 
 
@@ -86,8 +87,11 @@ body {
 /* Title Section*/
 
 #title .container-fluid {
-    padding: 10% 7% 5%;
+    padding: 5% 7% 5%;
     text-align: left;
+    background-image: url(../images/freeimage-5099283-web.jpg);
+    background-size: cover;
+
 
 }
 
@@ -96,7 +100,7 @@ body {
 .big-heading {
     font-family: "Montserrat";
     font-weight: 900;
-    font-size: 3.0rem;
+    font-size: 3.rem;
     line-height: 1.5;
     margin-top: 100px;
 }
@@ -126,6 +130,7 @@ body {
     color: white;
     margin-bottom: 1rem;
     width: 200px;
+    height: 125px;
 }
 
 .feat-img:hover {
@@ -277,5 +282,17 @@ header {
 }
 
 ul {
+    text-align: left;
+}
+
+/* Modal */
+
+.mark-but {
+    background-color: #1b6ca8;
+
+
+}
+
+.feat-text {
     text-align: left;
 }
