@@ -10,7 +10,9 @@ h2.title-call-out {
 }
 
 
-
+.service-img .container-fluid {
+    padding-bottom: 0;
+}
 
 .card-title {
     color: black;
@@ -120,9 +122,10 @@ body {
 
 /* Features */
 
-#features {
+#features .container-fluid{
     text-align: center;
-    position: relative;
+    margin-top: 0px;
+    padding-top: 2%;
     /* z-index: 1; */
 }
 
@@ -255,9 +258,15 @@ header {
 }
 
 /* Strategy */
-#strategy {
+/* #strategy {
     color: white;
     text-align: left;
+} */
+
+.service-img .container-fluid {
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
 }
 
 .strat-list {
