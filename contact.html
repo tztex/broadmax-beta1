@@ -66,93 +66,69 @@
 
       <!--Grid column-->
       <div class="col-md-9 mb-md-0 mb-5">
-        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputName">Name</label>
+      <input type="text" class="form-control" id="inputName">
+    </div>
 
-          <!--Grid row-->
-          <div class="row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
 
-            <!--Grid column-->
-            <div class="col-md-6">
-              <div class="md-form mb-0">
-                <input type="text" id="name" name="name" class="form-control">
-                <label for="name" class="">Your name</label>
-              </div>
-            </div>
-            <!--Grid column-->
+  </div>
+  <div class="form-group">
+    <label for="inputCompany">Company Name</label>
+    <input type="text" class="form-control" id="inputCompany" placeholder="">
+  </div>
 
-            <!--Grid column-->
-            <div class="col-md-6">
-              <div class="md-form mb-0">
-                <input type="text" id="email" name="email" class="form-control">
-                <label for="email" class="">Your email</label>
-              </div>
-            </div>
-            <!--Grid column-->
+  <div class="col-md-7">
 
-          </div>
-          <!--Grid row-->
+    <div class="md-form">
+      <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+      <label for="message">Your message</label>
+    </div>
 
-          <!--Grid row-->
-          <div class="row">
-            <div class="col-md-12">
-              <div class="md-form mb-0">
-                <input type="text" id="subject" name="subject" class="form-control">
-                <label for="subject" class="">Subject</label>
-              </div>
-            </div>
-          </div>
-          <!--Grid row-->
+    <div class="row">
 
-          <!--Grid row-->
-          <div class="row">
+      <div class="col">
+        <h4>Services Interested</h4>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+          <label class="form-check-label" for="inlineCheckbox1">Marketing</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+          <label class="form-check-label" for="inlineCheckbox2">Product Management</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+          <label class="form-check-label" for="inlineCheckbox3">Strategic Services</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+          <label class="form-check-label" for="inlineCheckbox4">Communications</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+          <label class="form-check-label" for="inlineCheckbox5">Other</label>
+        </div> <br><br>
+        <input type="submit" value="Send Request">
+      </div>
+    </div>
 
-            <!--Grid column-->
-            <div class="col-md-6">
 
-              <div class="md-form">
-                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                <label for="message">Your message</label>
-              </div>
-
-            </div>
-          </div>
-          <!--Grid row-->
-          <div class="row">
-
-            <div class="col-md-12">
-              <h4>Services Interested</h4>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1">Marketing</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">Product Management</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">Strategic Services</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">Communications</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">Other</label>
-              </div> <br><br>
-              <input type="submit" value="Send Request">
-            </div>
-          </div>
-
-        </form>
+  </div>
+</form>
 
 
       </div>
       <!--Grid column-->
 
       <!--Grid column-->
-      <div class="col-md-3 text-center">
+      <div class="col-md-2 text-center">
         <ul class="list-unstyled mb-0">
           <li><i class="fas fa-map-marker-alt fa-2x"></i>
             <p>San Antonio, TX 78258, USA</p>
