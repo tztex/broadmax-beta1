@@ -6,6 +6,10 @@
 
 }
 
+.card-body {
+    padding: 1% 2%;
+}
+
 h2.title-call-out {
     text-align: left;
     font-family: "Montserrat";
