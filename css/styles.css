@@ -4,11 +4,13 @@
     border-top: 0;
     border-left: 0;
     border-bottom: 0;
+    border-right: 0;
+    border-color: #1b6ca8;
 
 }
 
 .card-body {
-    padding: 1% 2%;
+    padding: 1% 5%;
 }
 
 h2.title-call-out {
@@ -28,7 +30,7 @@ h2.title-call-out {
 }
 
 .card-title {
-    color: black;
+    color: #1b6ca8;
 }
 
 
@@ -283,7 +285,10 @@ header {
     font-size: 2rem;
 }
 
-.contact-info {;
+.contact-us {
+    padding-left: 20%;
+        padding-right: 20%;
+
 }
 
 /* Strategy */
@@ -315,7 +320,7 @@ header {
 }
 
 #page-img {
-    height: 300px;
+    height: auto;
     width: 100%;
 }
 
@@ -331,12 +336,18 @@ ul {
 
 }
 
+.service-text {
+    font-size: 1.15rem;
+}
+
+
 .feat-text {
     text-align: left;
 }
 
 .card-text {
     text-align: left;
+    font-size: 1.10rem;
 }
 
 /* carousel section */
