@@ -337,7 +337,7 @@ ul {
 }
 
 .service-text {
-    font-size: 1.15rem;
+    font-size: 1.25rem;
 }
 
 
@@ -347,7 +347,7 @@ ul {
 
 .card-text {
     text-align: left;
-    font-size: 1.10rem;
+    font-size: 1.25rem;
 }
 
 /* carousel section */
@@ -363,3 +363,11 @@ ul {
     
 }
 
+.home-logo {
+    text-align: center;
+}
+
+.service-title {
+    color: #1b6ca8;
+;
+}
