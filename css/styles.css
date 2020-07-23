@@ -218,12 +218,24 @@ body {
     margin: 20px 10px;
 }
 
+.foot-name {
+    font-size: 2.0rem;
+    float: left;
+}
+
 /* About Us */
 
 .about-us {
-    margin-top: 6%;
+margin-top: 6%;
 text-align: left;
 margin-left: 0%;
+}
+
+.about-indv {
+    margin-top: 6%;
+    text-align: left;
+    margin-left: 0%;
+    background-color: #bbe1fa;
 }
 
 .aside { margin-top: 6%;
@@ -231,6 +243,19 @@ margin-left: 0%;
     padding-left: 8%;
     padding-right: 0%;
     font-size: 1.18rem;
+}
+
+.aside-indv {
+    margin-top: 6%;
+    /* margin-left: 0; */
+    padding-left: 1%;
+    padding-right: 2%;
+    font-size: 1.20rem;
+}
+
+.indv {
+    margin-bottom: 0;
+    margin-top: 1.5rem;
 }
 
 .about-us a {
@@ -244,6 +269,10 @@ margin-left: 0%;
 }
 .about-name {
     margin-left: 100px;;
+}
+
+.indv-border {
+    border-left: solid;
 }
 
 
