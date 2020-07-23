@@ -29,74 +29,92 @@
 </head>
 
 <body>
-<!-- Nav Bar -->
-<nav class="navbar fixed-top navbar-expand-lg bg-light navbar-light bg-white">
-  <a class="navbar-brand" href="./index.html">
-    <img src="./images/BroadMax Logo.jpg" width="200" height="auto" alt="">
-  </a>
+  <!-- Nav Bar -->
+  <nav class="navbar fixed-top navbar-expand-lg bg-light navbar-light bg-white">
+    <a class="navbar-brand" href="./index.html">
+      <img src="./images/BroadMax Logo.jpg" width="200" height="auto" alt="">
+    </a>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="./contact.html">Contact Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./about.html">About Us</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">
-          Services
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="./marketing.html">Marketing</a>
-          <a class="dropdown-item" href="./product.html">Product Development</a>
-          <a class="dropdown-item" href="./communications.html">Communications</a>
-          <a class="dropdown-item" href="#">Media</a>
-          <a class="dropdown-item" href="./strategic.html">Strategic Services</a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./marketing.html">Marketing</a>
+            <a class="dropdown-item" href="./product.html">Product Development</a>
+            <a class="dropdown-item" href="./communications.html">Communications</a>
+            <a class="dropdown-item" href="#">Media</a>
+            <a class="dropdown-item" href="./strategic.html">Strategic Services</a>
 
-        </div>
-      </li>
-    </ul>
-</nav>
+          </div>
+        </li>
+      </ul>
+  </nav>
 
   <!-- Bios -->
-  <section class='colored-section'>
-    <div class="container">
-      <h1 class='big-heading'>Broadmax Team</h1>
-    </div>
+  <section>
 
-    <div class="container"></div>
-    <div class="row">
-      <div class="col">
-        <h2><a href="./bruce.html">Bruce Forey</a> and <a href="./tom.html"> Tom Zanoli</a></h2>
-        <img class='bio-pics' src="./images/joint.JPG" alt=""> <br>
-        <p class='joint-text'>
-          BroadMax Group is forged from two careers focused on moving fiber broadband forward. Bruce Forey and Tom
-          Zanoli served as longtime managers with a telecom cooperative recognized as one of the early adopters of fiber
-          broadband. Their contributions in product development, marketing and communications strategies helped the
-          company build a strong brand, compete with Fortune 50 internet providers and achieve impressive financial
-          success. Leveraging their valuable industry expertise, Forey and Zanoli established BroadMax Group to offer
-          forward-thinking marketing, communications and product development solutions for businesses at various stages
-          for fiber broadband deployment.
-          <br><br>
+    <div class="container-fluid about-us">
+      <div class="row">
+        <div class="col-lg-5 about-us">
+          <img src="./images/about/Bruce and Tom cropped.png" width="600" height="auto" alt="">
+          <a href="./bruce.html" class='about-name'>Bruce Forey</a>
 
-          BroadMax Group partners with a network of highly-skilled professionals to offer clients outstanding talent
-          across our consulting service lines. Our group of experts will develop a plan to turn any challenge into an
-          opportunity. Let us know how BroadMax Group can help (Contact Us button)
+          <a href="./tom.html" class='about-name'>Tom Zanoli</a>
 
-        </p>
+
+        </div>
+
+
+
+        <div class="col-lg-7 aside">
+          <span class='about-logo'>
+            <img src="./images/about/X logo@1X.png" width='35' height='auto' alt=''>
+          </span>
+
+          <span>
+            <strong>BroadMax Group</strong> forged from two careers focused on moving fiber broadband
+            forward. Bruce Forey and Tom
+            Zanoli served as longtime managers with a telecom cooperative recognized as one of the early adopters of
+            fiber broadband. Their contributions in product development, marketing and communications strategies helped
+            the company build a strong brand, compete with Fortune 50 internet providers and achieve impressive
+            financial success. Leveraging their valuable industry expertise, Forey and Zanoli established BroadMax Group
+            to offer forward-thinking marketing, communications and product development solutions for businesses at
+            various stages for fiber broadband deployment.
+
+            BroadMax Group partners with a network of highly-skilled professionals to offer clients outstanding talent
+            across our consulting service lines. Our group of experts will develop a plan to turn any challenge into an
+            opportunity. Let us know how BroadMax Group can help.
+            <!-- <a href='./contact.html'><button>Contact Us</button></a> -->
+
+
+
+          </span>
+
+
+
+
+
+        </div>
+
+
+
+
       </div>
-
-    </div>
-    <div class='tom-bio' class="container">
-
-
 
     </div>
 
@@ -104,11 +122,14 @@
 
   <!-- Footer -->
 
-  <footer class="white-section" id="footer">
+  <footer id="footer">
     <div class="container-fluid">
-      <i class="foot fab fa-twitter"></i>
+      <a href=""><img src="./images/about/LinkedIn.png" width='35' height='auto' alt=""></a>
+            <a href=""><img src="./images/about/Twitter logo.png" width='35' height='auto' alt=""></a>
+
+      <!-- <i class="foot fab fa-twitter"></i>
       <i class="foot fab fa-facebook-f"></i>
-      <i class="foot fas fa-envelope"></i>
+      <i class="foot fas fa-envelope"></i> -->
 
       <p>© Copyright 2020 Broadmax</p>
     </div>
