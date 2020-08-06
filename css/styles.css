@@ -1,3 +1,10 @@
+body {
+    font-family: 'Roboto',
+    sans-serif;
+
+}
+
+
 /* cards */
 .card {
     border-top: 0;
@@ -14,7 +21,7 @@
 
 h2.title-call-out {
     text-align: left;
-    font-family: "Montserrat";
+    /* font-family: "Montserrat"; */
     font-weight: 900;
     line-height: 1.5;
     padding: 5%;
@@ -43,7 +50,7 @@ h4,
 h5,
 h6,
     {
-    font-family: "Montserrat";
+    /* font-family: "Montserrat"; */
     font-weight: 900;
     text-align: center;
 }
@@ -54,17 +61,27 @@ a {
 
 
 .font-weight-bold {
-    font-family: "Montserrat-Black";
+    font-family: "Roboto-Black";
     font-weight: 400;
     text-align: center;
     font-size: 3.0rem;
 }
 
 body {
-    font-family: "Montserrat-Black";
-    font-weight: 400;
+
     text-align: center;
 
+}
+
+/* Icons */
+.icon {
+    /* height: auto; */
+    /* width: 50px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    /* Other styles here */
 }
 
 /* Sections */
@@ -110,7 +127,7 @@ body {
 
 /* Headings */
 .big-heading {
-    font-family: "Montserrat";
+    /* font-family: "Montserrat"; */
     font-weight: 900;
     font-size: 3.rem;
     line-height: 1.5;
@@ -205,7 +222,7 @@ body {
 
 /* Footer */
 #footer {
-    margin-top: 5%;
+    margin-top: 2%;
         background-color: black;
 
     position: relative;
@@ -247,6 +264,7 @@ padding-right: 2%;
     padding-right: 5%;
     font-size: 1.13rem;
     padding-bottom: 5%;
+    text-align: justify;
     color: black;
 }
 
@@ -256,6 +274,7 @@ padding-right: 2%;
     padding-left: 1%;
     padding-right: 2%;
     font-size: 1.20rem;
+    text-align: justify;
 }
 
 .indv {
@@ -380,7 +399,7 @@ header {
 }
 
 .strat-list {
-    font-family: "Montserrat-Black";
+    font-family: "Roboto-Black";
     font-size: 1.5rem;
     text-align: left;
 }
@@ -413,17 +432,17 @@ ul {
 }
 
 .service-text {
-    font-size: 1.25rem;
+    font-size: 1.10rem;
 }
 
 
 .feat-text {
-    text-align: left;
+    text-align: justify;
 }
 
 .card-text {
-    text-align: left;
-    font-size: 1.20rem;
+    text-align: justify;
+    font-size: 1.10rem;
 }
 
 /* carousel section */
@@ -434,6 +453,6 @@ ul {
 }
 
 .service-title {
-    color: #1b6ca8;
-    ;
+    /* color: #1b6ca8; */
+    font-weight: 500;
 }

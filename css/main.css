@@ -59,7 +59,7 @@ input[type=submit]:hover {
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: Montserrat;
+  font-family: Roboto;
 }
 
 .foot {
@@ -70,3 +70,7 @@ input[type=submit]:hover {
   text-align: center;
   margin-top: 5%;
 }
+
+  .contact-text {
+    text-align: center;
+  }
