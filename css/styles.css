@@ -1,8 +1,12 @@
 body {
     font-family: 'Roboto',
     sans-serif;
+    font-size: calc(0.75em + 1vmin);
+
+
 
 }
+
 
 
 /* cards */
