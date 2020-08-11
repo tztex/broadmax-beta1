@@ -1,9 +1,14 @@
+html {
+    font-size: 100%;
+}
+
+
 body {
-    font-family: 'Roboto',
-    sans-serif;
-    font-size: calc(0.75em + 1vmin);
-
-
+    font-family: 'Roboto', sans-serif;
+    /* font-size: calc(0.80em + 1vmin); */
+    /* font-size: calc(16px + (26 - 16) * ((100vw - 768px) / (1600 - 768))); */
+        /* font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300))); */
+      /* font-size: calc(.8rem + .5vw); */
 
 }
 
@@ -266,7 +271,7 @@ padding-right: 2%;
 .aside { margin-top: 5%;
     /* margin-left: 0; */
     padding-right: 5%;
-    font-size: 1.13rem;
+    /* font-size: 1.13rem; */
     padding-bottom: 5%;
     text-align: justify;
     color: black;
@@ -303,7 +308,7 @@ padding-right: 2%;
 
 }
 .about-tom {
-    padding-left: 25%;
+    padding-left: 30%;
 }
 
 .about-bruce {
@@ -436,17 +441,20 @@ ul {
 }
 
 .service-text {
-    font-size: 1.10rem;
+    /* font-size: 1.10rem; */
 }
 
 
 .feat-text {
+    /* font-size: 1rem; */
+
     text-align: justify;
+      /* text-justify: inter-word; */
 }
 
 .card-text {
     text-align: justify;
-    font-size: 1.10rem;
+    /* font-size: 1.10rem; */
 }
 
 /* carousel section */
