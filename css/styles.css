@@ -1,3 +1,15 @@
+@media only screen and (max-width: 600px) {
+    font-size: 110%;
+}
+
+@media only screen and (min-width: 600px) {
+    font-size: 110%;
+
+}
+
+
+
+
 html {
     font-size: 100%;
 }
@@ -7,8 +19,8 @@ body {
     font-family: 'Roboto', sans-serif;
     /* font-size: calc(0.80em + 1vmin); */
     /* font-size: calc(16px + (26 - 16) * ((100vw - 768px) / (1600 - 768))); */
-        /* font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300))); */
-      /* font-size: calc(.8rem + .5vw); */
+    /* font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300))); */
+    /* font-size: calc(.8rem + .5vw); */
 
 }
 
@@ -232,7 +244,7 @@ body {
 /* Footer */
 #footer {
     margin-top: 2%;
-        background-color: black;
+    background-color: black;
 
     position: relative;
     bottom: 0;
@@ -253,10 +265,10 @@ body {
 /* About Us */
 
 .about-us {
-margin-top: 6%;
-text-align: left;
-margin-left: 0%;
-padding-right: 2%;
+    margin-top: 6%;
+    text-align: left;
+    margin-left: 0%;
+    padding-right: 2%;
 
 
 }
@@ -268,7 +280,8 @@ padding-right: 2%;
     background-color: #bbe1fa;
 }
 
-.aside { margin-top: 5%;
+.aside {
+    margin-top: 5%;
     /* margin-left: 0; */
     padding-right: 5%;
     /* font-size: 1.13rem; */
@@ -300,6 +313,7 @@ padding-right: 2%;
     padding-left: 0%;
     float: left;
 }
+
 .about-name {
     color: white;
     float: left;
@@ -307,6 +321,7 @@ padding-right: 2%;
 
 
 }
+
 .about-tom {
     padding-left: 30%;
 }
@@ -316,7 +331,7 @@ padding-right: 2%;
 }
 
 .names {
-        background-color: #1b6ca8;
+    background-color: #1b6ca8;
 
 }
 
@@ -449,7 +464,7 @@ ul {
     /* font-size: 1rem; */
 
     text-align: justify;
-      /* text-justify: inter-word; */
+    /* text-justify: inter-word; */
 }
 
 .card-text {
