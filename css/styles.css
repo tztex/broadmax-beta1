@@ -471,3 +471,9 @@ ul {
     /* color: #1b6ca8; */
     font-weight: 500;
 }
+
+@media (max-width:629px) {
+    #page-img {
+        display: none;
+    
+}
