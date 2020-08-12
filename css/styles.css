@@ -475,5 +475,8 @@ ul {
 @media (max-width:629px) {
     #page-img {
         display: none;
-    
+    }
+    .home-logo {
+        padding-top: 5%;
+    }
 }
