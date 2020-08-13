@@ -476,7 +476,15 @@ ul {
     #page-img {
         display: none;
     }
+
     .home-logo {
         padding-top: 20%;
     }
+
+    .about-us {
+        margin-top: 10%;
+
+    }
+
+
 }
