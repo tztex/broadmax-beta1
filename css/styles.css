@@ -472,6 +472,14 @@ ul {
     font-weight: 500;
 }
 
+.img1 {
+    display: block;
+}
+
+.img2 {
+    display: none;
+}
+
 @media (max-width:629px) {
     #page-img {
         display: none;
@@ -486,10 +494,13 @@ ul {
 
     }
 
-    .homepage {
-        <img src="./images/BMG Mobile.jpg" class="img-fluid" alt="Responsive image">
+    .img1 {
+        display: none;
+    }
 
-
+    .img2 {
+        display: block;
+    }
     }
 
 
