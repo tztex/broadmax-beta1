@@ -504,11 +504,8 @@ ul {
         text-align: center;
     }
 
-    .container-fluid .contact-text{
+    #contact-text {
 
         padding-top: 20% !important;
     }
-    
-
-
 }

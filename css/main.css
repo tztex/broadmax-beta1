@@ -74,3 +74,33 @@ input[type=submit]:hover {
   .contact-text {
     text-align: center;
   }
+
+  @media (max-width:629px) {
+    #page-img {
+      display: none;
+    }
+
+    .home-logo {
+      padding-top: 20%;
+    }
+
+    .about-us {
+      margin-top: 10%;
+
+    }
+
+    .img1 {
+      display: none;
+    }
+
+    .img2 {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+
+    #contact-text {
+
+      padding-top: 20% !important;
+    }
+  }
