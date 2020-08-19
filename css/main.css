@@ -65,6 +65,10 @@ input[type=submit]:hover {
   margin: 20px 10px;
 }
 
+.contact-text1 {
+
+  padding-top: 50px !important;
+}
 #footer {
   text-align: center;
   margin-top: 5%;
@@ -98,8 +102,5 @@ input[type=submit]:hover {
       text-align: center;
     }
 
-    #contact-text {
-
-      padding-top: 20% !important;
-    }
+    
   }
