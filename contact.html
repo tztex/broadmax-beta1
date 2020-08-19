@@ -95,11 +95,13 @@
 
       <label for="comp">Company Name</label>
       <input type="text" id="comp" name="lastname" placeholder="Your Company Name..">
+      <label for="phone">Contact Number</label> <br>
+      
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+      
+      <small>Format: 123-456-7890</small><br> <br>
 
 
-      <div class="row">
-
-        <div class="col">
           <h4>Services Interested</h4>
           <div class="form-check form-check-inline">
             <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
@@ -121,8 +123,6 @@
             <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
             <label class="form-check-label" for="inlineCheckbox5">Other</label>
           </div> <br><br>
-        </div>
-      </div>
 
       <label for="subject">How Can We Help?</label>
       <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
@@ -130,12 +130,15 @@
       <button type="submit" class="btn btn-primary">Send</button>
     </form>
   </div>
+  <br>
+  <br>
+
 
 
   <!-- Footer -->
 
-  <footer id="footer">
-    <div>
+  <footer>
+    <div id="footer-contact">
       <a href="mailto: info@broadmaxgroup.com"><img src="./images/icons/Icons/Email.png" width='35' height='auto'
           alt=""></a>
       <a href="https://www.linkedin.com/company/broadmax-group/about/?viewAsMember=true" target="_blank"><img
