@@ -1,121 +1,320 @@
-  <div class="container my-4">
+  <!DOCTYPE html>
+  <html lang="en">
 
-    <p class="font-weight-bold">Broadmax Services</p>
+  <head>
+    <meta charset="utf-8">
+    <title>Marketing</title>
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
 
+    <!--CSS Stylesheets-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css" />
 
-    <!--Carousel Wrapper-->
-    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/550434ccd6.js" crossorigin="anonymous"></script>
 
-      <!--Controls-->
-      <div class="controls-top">
-        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-        <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+    <script src='./scripts/index.js'></script>
+  </head>
+
+  <body>
+    <!-- Nav Bar -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-light navbar-light">
+      <a class="navbar-brand" href="./index.html">Broadmax</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="./marketing.html">Marketing</a>
+              <a class="dropdown-item" href="#">Product Development</a>
+              <a class="dropdown-item" href="./communications.html">Communications</a>
+              <a class="dropdown-item" href="#">Media</a>
+              <a class="dropdown-item" href="./strategic.html">Strategic Services</a>
+
+            </div>
+          </li>
+        </ul>
+    </nav>
+
+    <section class='service-img'>
+      <div class='container-fluid'>
+        <div class='row'>
+          <img id='page-img' src="./images/william-daigneault-oWrZoAVOBS0-unsplash.jpg" alt="">
+        </div>
       </div>
-      <!--/.Controls-->
 
-      <!--Indicators-->
-      <ol class="carousel-indicators">
-        <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-        <li data-target="#multi-item-example" data-slide-to="1"></li>
-        <li data-target="#multi-item-example" data-slide-to="2"></li>
-      </ol>
-      <!--/.Indicators-->
+    </section>
+    <h1>Marketing Services</h1>
+    <section>
 
-      <!--Slides-->
-      <div class="carousel-inner" role="listbox">
+      <div class='container-fluid' id='cards'>
+        <div class="row">
+          <div class="card-deck">
+            <div class="card"><br>
+              <i class="fas fa-funnel-dollar fa-2x"></i>
 
-        <!--First slide-->
-        <div class="carousel-item active">
+              <div class="card-body">
+                <h5 class="card-title">Marketing Strategy</h5>
+                <p class="card-text">Based on the research, BroadMax develops a tailored marketing strategy designed to
+                  communicate your brand value, generate leads and increase revenue. To achieve this goal we use one or
+                  all of the following approaches.
+                  <ul>
+                    <li>Research </li>
+                    <li>Marketing Segmentation</li>
+                    <li>Positioning</li>
+                    <li>Marketing Plan Development</li>
+                  </ul>
 
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card mb-2">
-                <img class="card-img-top" src="./images/strategy.jpeg" alt="Card image cap">
-                <div class="card-body">
-                  <a href="./strategic.html">
-                    <h4 class="card-title">Strategy</h4>
-                  </a>
 
-                  <p class="card-text">Every successful venture starts with a solid plan. We’ll work together on the
-                    right approach to achieve
-                    your goals.</p>
-
-                </div>
+                </p>
               </div>
             </div>
+            <div class="card"> <br>
+              <i class="fas fa-file-contract fa-2x"></i>
 
-            <div class="col-md-4 clearfix d-none d-md-block">
-              <div class="card mb-2">
-                <img class="card-img-top" src="./images/marketing.jpeg" alt="Card image cap">
-                <div class="card-body">
-                  <a href="./marketing.html"></a>
-                  <h4 class="card-title">Marketing</h4>
-                  <p class="card-text">We do it all but that doesn’t mean you need it all. Marketing strategy and
-                    tactics for B2C and B2B.</p>
+              <div class="card-body">
+                <h5 class="card-title">Branding</h5>
+                <p class="card-text">As an internet provider to rural and underserved areas, you provide a tremendous
+                  service for your community. This investment is a valuable asset that should be leveraged to elevate
+                  your
+                  brand. BroadMax has experience utilizing many strategies to solidly position your company as an
+                  outstanding corporate citizen. Let’s work together to create strong brand awareness that will build
+                  loyal customers regardless of competition or price adjustments.</p>
 
-                </div>
               </div>
             </div>
+            <div class="card"> <br>
+              <i class="fas fa-chess-board fa-2x"></i>
 
-            <div class="col-md-4 clearfix d-none d-md-block">
-              <div class="card mb-2">
-                <img class="card-img-top" src="./images/product.jpeg" alt="Card image cap">
-                <div class="card-body">
-                  <h4 class="card-title">Product Development</h4>
-                  <p class="card-text">How to Create Products Customers Love!
-                  </p>
-                </div>
+              <div class="card-body">
+                <h5 class="card-title">Promotion</h5>
+                <p class="card-text">This is how we communicate your offerings to the customer. Based on the strategy,
+                  we’ll suggest a mix of digital and social media marketing, advertising, personal selling and sales
+                  promotions to inform, persuade or remind, depending on where the customer is in the sales funnel.
+                  Internal marketing is just as important. Everyone in the organization is brand ambassador but only if
+                  they have a complete understanding of the broadband product. </p>
               </div>
             </div>
           </div>
-
         </div>
-        <!--/.First slide-->
-
-        <!--Second slide-->
-        <div class="carousel-item">
-
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card mb-2">
-                <img class="card-img-top" src="./images/communications.jpeg" alt="Card image cap">
-                <div class="card-body">
-                  <h4 class="card-title">Communications</h4>
-                  <p class="card-text">Effective and integrated messaging to your customers, employees and stakeholders
-                    about broadband and
-                    beyond.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 clearfix d-none d-md-block">
-              <div class="card mb-2">
-                <img class="card-img-top" src="./images/media.jpeg" alt="Card image cap">
-                <div class="card-body">
-                  <h4 class="card-title">Media</h4>
-                  <p class="card-text">Follow our podcast and blog for useful insight into broadband related products,
-                    marketing and
-                    communications for our industry partners..</p>
-                </div>
-              </div>
-            </div>
-
-
-          </div>
-
-        </div>
-        <!--/.Second slide-->
-
-        <!--Third slide-->
-
-        <!--/.Third slide-->
-
       </div>
-      <!--/.Slides-->
 
-    </div>
-    <!--/.Carousel Wrapper-->
+      <div class='container-fluid' id='cards'>
+        <div class="row">
+          <div class="card-deck">
+            <div class="card"><br>
+              <i class="fas fa-inbox fa-2x"></i>
+
+              <div class="card-body">
+                <h5 class="card-title">Messaging</h5>
+                <p class="card-text">Content Marketing: Content Marketing is all about creating and publishing content
+                  to
+                  engage target audiences. With content marketing, consumers get more information about your brand or
+                  product compared to traditional advertising. Another bonus is that social media platforms allow
+                  customers to interact with your company. At BroadMax, we collaborate on goals for each content
+                  marketing
+                  campaign, consult on content development and establish KPI’s to measure effectiveness. Whether it’s
+                  boosting conversions or building trust with customers, content marketing is effective at gaining
+                  attention for your product and brand. <br><br>
+
+                  <!-- Trigger the modal with a button -->
+                  <button type="button" class="btn btn-info btn-md mark-but" data-toggle="modal"
+                    data-target="#messageModal">Learn
+                    More</button>
+
+                  <!-- Modal -->
+                  <div id="messageModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+
+                          <h5 class="modal-title">Content Marketing Options</h5>
+
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                          <p>
+                            <ul>
+                              <li>Social Media </li>
+                              <li>Blogs</li>
+                              <li>Testimonials/Customer Reviews</li>
+                              <li>Videos</li>
+                              <li>Podcasts</li>
+                              <li>Infographics</li>
+                              <li>Whitepapers</li>
+                              <li>New and Emerging Content Marketing Opportunities</li>
+                            </ul>
+                          </p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </p>
+              </div>
+            </div>
+            <div class="card"><br>
+              <i class="fas fa-digital-tachograph fa-2x"></i>
+
+              <div class="card-body">
+                <h5 class="card-title">Digital Marketing</h5>
+                <p class="card-text">Deciding on any form of digital marketing before knowing your customer preferences
+                  is
+                  like the proverbial cart before the horse. BroadMax lets research and marketing strategy reveal your
+                  most effective digital marketing options. Details and adjustments are the difference between a digital
+                  campaign that generates leads or is just an expense line item. Once we agree on the right approach,
+                  BroadMax can consult or manage your entire digital marketing campaign.<br><br>
+                  <!-- Trigger the modal with a button -->
+                  <button type="button" class="btn btn-info btn-md mark-but" data-toggle="modal"
+                    data-target="#myModal">Learn
+                    More</button>
+
+                  <!-- Modal -->
+                  <div id="myModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+
+                          <h5 class="modal-title">Let Broadmax advise on the right digital marketing approach for your
+                            target audience that turns clicks into sales. </h5>
+
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                          <p>
+                            <ul>
+                              <li>Display, Search and Native Ads for mobile and desktop</li>
+                              <li>Geo-Targeting</li>
+                              <li>Social Media</li>
+                              <li>Geo-Targeting</li>
+                              <li>Email</li>
+                              <li>In-App-Ads</li>
+                              <li>Branded Mobile Apps</li>
+                            </ul>
+                          </p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
 
 
-  </div>
+                </p>
+
+              </div>
+            </div>
+            <div class="card"><br>
+              <i class="fab fa-aws fa-2x"></i>
+              <div class="card-body">
+                <h5 class="card-title">Web</h5>
+                <p class="card-text">Your company’s website is your most valuable piece of digital real estate. It needs
+                  to convey your brand while serving as a channel for customer service and broadband sales. It must also
+                  stand out when prospective customers are searching for services you offer. BroadMax understands the
+                  elements that make a successful website. We’re happy to consult on a new website or conduct a
+                  performance audit on your existing one.<br><br>
+                  <!-- Trigger the modal with a button -->
+                  <button type="button" class="btn btn-info btn-md mark-but" data-toggle="modal"
+                    data-target="#myModal1">Learn More</button>
+
+                  <!-- Modal -->
+                  <div id="myModal1" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+
+                          <h5 class="modal-title">Broadmax will ensure your website is working to communicate your brand
+                            and generate interest for your products. </h5>
+
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                          <p>
+                            <ul>
+                              <li>Seven C’s Audit: Context, Content, Community, Customization, Communication,
+                                Connection,
+                                Commerce</li>
+                              <li>Keyword Analysis</li>
+                              <li>SEO Optimization</li>
+                              <li>Google Analytics Assessment</li>
+                              <li>Marketing Automation Opportunities</li>
+                              <li>Landing Pages</li>
+                              <li>Website Design</li>
+                            </ul>
+                          </p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="white-section" id="footer">
+      <div class="container-fluid">
+        <i class="foot fab fa-twitter"></i>
+        <i class="foot fab fa-facebook-f"></i>
+        <i class="foot fas fa-envelope"></i>
+
+        <p>© Copyright 2020 Broadmax</p>
+      </div>
+    </footer>
+
+  </body>
+
+  </html>
